@@ -72,8 +72,22 @@ Includes necessary libraries and sets up common namespaces. Used by both `main.c
 ./my_program
 ```
 
-2. Select a .txt file from the list.
+2. Select a `.txt` file from the list.
 
-Wait for the program to process the file.
+3. Wait for the program to process the file.
 
-Check the rezultatai.txt file for the output.
+4. Enter the desired `.txt` file for the code to process.
+   
+5. Check the `rezultatai.txt` file for the output.
+
+## Example of what `rezultatai.txt` should look like
+```
+URL count: 3.
+http://example.com
+https://anotherexample.com
+www.yetanotherexample.com
+
+ZODIS                         KIEKIS    EILUCIU NR.
+example                      5        1   3   5
+text                         2        2   4
+```
